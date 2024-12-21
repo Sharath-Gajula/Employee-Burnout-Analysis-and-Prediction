@@ -4,7 +4,8 @@ The project focuses on predicting employee burnout using regression analysis. Bu
 
 **Key Steps in the Code:**
 
-1.Data Import and Initial Exploration
+1.Data Import and Initial Exploration:
+
   The dataset is loaded using pandas and explored (df.head(), df.tail(), df.describe(), 
   df.info()).
   Checked for null values and unique column values.
