@@ -46,10 +46,12 @@ The project focuses on predicting employee burnout using regression analysis. Bu
 1.Data Manipulation:
 
   pandas: Data cleaning and manipulation.
+  
 2.Visualization:
 
   matplotlib.pyplot: For creating plots.
   seaborn: For advanced data visualization.
+  
 3.Machine Learning:
 
   sklearn.model_selection.train_test_split: Splits the data into training and testing sets.
