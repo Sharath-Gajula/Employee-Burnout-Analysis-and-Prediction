@@ -10,28 +10,34 @@ The project focuses on predicting employee burnout using regression analysis. Bu
   df.info()).
   Checked for null values and unique column values.
   
-2.Data Cleaning
+2.Data Cleaning:
+
   Dropped missing values (df.dropna()).
   Removed irrelevant columns like Employee ID and handled date/time data from Date of Joining.
   Encoded categorical variables using one-hot encoding (pd.get_dummies).
 
-3.Feature Engineering
+3.Feature Engineering:
+
   Added a new column to calculate the number of days since a reference date (Days).
   Calculated correlations between features and the target variable (Burn Rate).
 
-4.Data Visualization
+4.Data Visualization:
+
   Visualized the distribution of categorical columns using seaborn bar plots.
   Explored correlations to identify key predictors.
   
-5.Model Preparation
+5.Model Preparation:
+
   Split the dataset into features (X) and target (y) and performed a train-test split (70-30 
   ratio).
   Scaled numerical features using StandardScaler.
   
-6.Model Training
+6.Model Training:
+
   Created an instance of the LinearRegression class and trained it using the fit method.
   
-7.Model Evaluation
+7.Model Evaluation:
+
   Used metrics such as Mean Squared Error (MSE), Root Mean Squared Error (RMSE), Mean Absolute 
   Error (MAE), and R-squared score to evaluate the model.
 
